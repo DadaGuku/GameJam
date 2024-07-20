@@ -229,4 +229,3 @@ sprite = NodePath("../../AnimatedSprite2D")
 sprite_frames = SubResource("SpriteFrames_gto7q")
 animation = &"idle_down"
 autoplay = "idle_down"
-frame_progress = 0.683101

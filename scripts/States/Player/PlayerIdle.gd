@@ -13,7 +13,6 @@ func Exit():
 	pass
 	
 func Update(_delta):
-	Change_Animation()
 	if(Input.get_vector("left","right","up","down")):
 		Transitioned.emit(self, "walk")
 
