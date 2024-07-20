@@ -1,3 +1,4 @@
+### Player.gd
 extends CharacterBody2D
 class_name Player
 
@@ -6,6 +7,5 @@ class_name Player
 var last_direction : Vector2
 var SPEED = 300
 
-func ready():
-	last_direction = Vector2(0,1)
+func _ready():
 	Global.player = self

@@ -1,4 +1,4 @@
-[gd_scene load_steps=31 format=3 uid="uid://h1r3gsqqnfl0"]
+[gd_scene load_steps=32 format=3 uid="uid://h1r3gsqqnfl0"]
 
 [ext_resource type="Script" path="res://scripts/Player.gd" id="1_w0pbk"]
 [ext_resource type="Script" path="res://scripts/States/Statemaschine.gd" id="2_pf4ta"]
@@ -207,7 +207,9 @@ animations = [{
 "speed": 5.0
 }]
 
-[node name="Player" type="CharacterBody2D" node_paths=PackedStringArray("sprite")]
+[sub_resource type="CircleShape2D" id="CircleShape2D_d8lo8"]
+
+[node name="Player" type="CharacterBody2D" node_paths=PackedStringArray("sprite") groups=["Player"]]
 script = ExtResource("1_w0pbk")
 sprite = NodePath("AnimatedSprite2D")
 
@@ -229,3 +231,7 @@ sprite = NodePath("../../AnimatedSprite2D")
 sprite_frames = SubResource("SpriteFrames_gto7q")
 animation = &"idle_down"
 autoplay = "idle_down"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["Player"]]
+position = Vector2(0, 4)
+shape = SubResource("CircleShape2D_d8lo8")
