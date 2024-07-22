@@ -209,9 +209,8 @@ animations = [{
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_d8lo8"]
 
-[node name="Player" type="CharacterBody2D" node_paths=PackedStringArray("sprite") groups=["Player"]]
+[node name="Player" type="CharacterBody2D" groups=["Player"]]
 script = ExtResource("1_w0pbk")
-sprite = NodePath("AnimatedSprite2D")
 
 [node name="StateMachine" type="Node" parent="." node_paths=PackedStringArray("initial_state")]
 script = ExtResource("2_pf4ta")

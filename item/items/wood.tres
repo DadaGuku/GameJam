@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://4ifjrtwwm3xq"]
+
+[ext_resource type="Script" path="res://item/item_data.gd" id="1_e3m85"]
+[ext_resource type="Texture2D" uid="uid://c516hb2318u3r" path="res://item/#1 - Transparent Icons.png" id="2_tsytc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5f7jn"]
+atlas = ExtResource("2_tsytc")
+region = Rect2(0, 544, 32, 32)
+
+[resource]
+script = ExtResource("1_e3m85")
+name = "Wood"
+description = "A log of Wood"
+stackable = true
+texture = SubResource("AtlasTexture_5f7jn")
