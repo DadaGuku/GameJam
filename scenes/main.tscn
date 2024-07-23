@@ -5,7 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://h1r3gsqqnfl0" path="res://scenes/player.tscn" id="3_llgov"]
 [ext_resource type="Resource" uid="uid://pbgq1eos81nf" path="res://test_inventory.tres" id="4_u6mfd"]
 [ext_resource type="PackedScene" uid="uid://chm0fqhu3c3tt" path="res://inventory/inventory.tscn" id="5_1qb8v"]
-[ext_resource type="Script" path="res://inventory_interface.gd" id="5_wnncb"]
+[ext_resource type="Script" path="res://inventory/inventory_interface.gd" id="5_wnncb"]
 [ext_resource type="PackedScene" uid="uid://yeapk8pxgejc" path="res://inventory/slot.tscn" id="7_hdsny"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0k6tk"]
