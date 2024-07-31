@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3 uid="uid://bnbownou275jl"]
+
+[ext_resource type="Script" path="res://item/item_data.gd" id="1_ypst5"]
+[ext_resource type="Texture2D" uid="uid://chjy13f7h0uo4" path="res://assets/Sprite-Yellow-Potion.png" id="2_pf5th"]
+
+[resource]
+script = ExtResource("1_ypst5")
+name = "Yellow Potion"
+description = "Made From the Yellow Fruit"
+stackable = false
+texture = ExtResource("2_pf5th")

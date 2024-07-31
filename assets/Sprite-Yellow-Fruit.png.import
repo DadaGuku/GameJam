@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ejt5cixly27p"
-path="res://.godot/imported/durry.png-34841b9bdf26253255fe06a9e7bf6e78.ctex"
+uid="uid://dx0nn4fxmyc53"
+path="res://.godot/imported/Sprite-Yellow-Fruit.png-ad9df5e208781a7cfb78425df8fe401d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/durry.png"
-dest_files=["res://.godot/imported/durry.png-34841b9bdf26253255fe06a9e7bf6e78.ctex"]
+source_file="res://assets/Sprite-Yellow-Fruit.png"
+dest_files=["res://.godot/imported/Sprite-Yellow-Fruit.png-ad9df5e208781a7cfb78425df8fe401d.ctex"]
 
 [params]
 

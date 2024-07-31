@@ -10,12 +10,13 @@ signal toggle_inventory
 
 
 var last_direction : Vector2
-var SPEED = 300
+var SPEED = 200
 
 func _ready():
 	Global.player = self
 
 func _unhandled_input(_event):
-	
+	if Input.is_action_just_pressed("interact"):
+		Global.switch_scene()
 	if Input.is_action_just_pressed("inventory"):
 		toggle_inventory.emit()

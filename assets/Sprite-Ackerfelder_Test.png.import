@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://byobj5lqt6xhr"
-path="res://.godot/imported/swamp_.png-d18a3ec5371735fddceb104d6c785ab7.ctex"
+uid="uid://beu4fesfli8pd"
+path="res://.godot/imported/Sprite-Ackerfelder_Test.png-6c098bc00cd58d0dbb2d590cdd406c5b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/swamp_.png"
-dest_files=["res://.godot/imported/swamp_.png-d18a3ec5371735fddceb104d6c785ab7.ctex"]
+source_file="res://assets/Sprite-Ackerfelder_Test.png"
+dest_files=["res://.godot/imported/Sprite-Ackerfelder_Test.png-6c098bc00cd58d0dbb2d590cdd406c5b.ctex"]
 
 [params]
 

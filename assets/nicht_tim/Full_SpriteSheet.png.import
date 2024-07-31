@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bw8jf7o04uidq"
-path="res://.godot/imported/forest_night.png-7806cbb315d1cf04f478082dee61934d.ctex"
+uid="uid://048ubcmkqu4v"
+path="res://.godot/imported/Full_SpriteSheet.png-27eed176a2a58904f95835f0337074e0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/forest_night.png"
-dest_files=["res://.godot/imported/forest_night.png-7806cbb315d1cf04f478082dee61934d.ctex"]
+source_file="res://assets/nicht_tim/Full_SpriteSheet.png"
+dest_files=["res://.godot/imported/Full_SpriteSheet.png-27eed176a2a58904f95835f0337074e0.ctex"]
 
 [params]
 

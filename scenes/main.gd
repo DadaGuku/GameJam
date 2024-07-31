@@ -1,6 +1,6 @@
 extends Node2D
 
-@onready var player = $Player
+@onready var player = %Player
 @onready var inventory_interface = $UI/InventoryInterface
 
 

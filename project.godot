@@ -19,6 +19,16 @@ config/icon="res://icon.svg"
 
 Global="*res://scripts/Global.gd"
 
+[display]
+
+window/size/viewport_width=1294
+window/size/viewport_height=701
+window/stretch/mode="canvas_items"
+
+[filesystem]
+
+import/blender/enabled=false
+
 [input]
 
 up={
@@ -61,3 +71,4 @@ inventory={
 textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+2d/snap/snap_2d_transforms_to_pixel=true

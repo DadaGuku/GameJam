@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://048ubcmkqu4v"
-path="res://.godot/imported/Full_SpriteSheet.png-13b645ab9ad75ff55c70fcd1591eb54a.ctex"
+uid="uid://cc1kq20xfn6m6"
+path="res://.godot/imported/Sprite-TileMap-Dirt-Grass-Floor.png-def15760c664b097108610807c7c8bea.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Full_SpriteSheet.png"
-dest_files=["res://.godot/imported/Full_SpriteSheet.png-13b645ab9ad75ff55c70fcd1591eb54a.ctex"]
+source_file="res://scripts/states/Sprite-TileMap-Dirt-Grass-Floor.png"
+dest_files=["res://.godot/imported/Sprite-TileMap-Dirt-Grass-Floor.png-def15760c664b097108610807c7c8bea.ctex"]
 
 [params]
 
